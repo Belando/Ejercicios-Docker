@@ -16,7 +16,12 @@ function showRandom ($array) {
     return $array[$randomPosition];
 }
 
-echo showRandom ($letras)
+echo showRandom ($letras);
+
+function arrayInverso($array){
+    array_reverse($array);
+    return "array";
+}
 
 
 ?>
